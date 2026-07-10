@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'theme/app_colors.dart';
 import 'localization/translations.dart';
 import 'localization/app_language.dart';
+import 'services/incident_storage_service.dart';
 
 class EmergencyScreen extends StatefulWidget {
   const EmergencyScreen({super.key});
@@ -129,7 +130,17 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
                       const SizedBox(width: 12),
                       Expanded(
                         child: ElevatedButton(
-                          onPressed: () => Navigator.pop(context),
+                          onPressed: () async {
+                            await IncidentStorageService.addIncident(
+                              IncidentEntry(
+                                type: IncidentType.sos,
+                                timestamp: DateTime.now(),
+                                durationSeconds: _secondsElapsed,
+                              ),
+                            );
+                            if (!context.mounted) return;
+                            Navigator.pop(context);
+                          },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: AppColors.cream,
                             foregroundColor: AppColors.navy,

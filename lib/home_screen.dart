@@ -11,6 +11,10 @@ import 'localization/language_switcher.dart';
 import 'localization/app_language.dart';
 import 'emergency_screen.dart';
 import 'profile_screen.dart';
+import 'fake_call_setup_screen.dart';
+import 'share_location_screen.dart';
+import 'audio_record_screen.dart';
+import 'incident_history_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -56,22 +60,42 @@ class _HomeScreenState extends State<HomeScreen> {
           _SlideData(
             icon: Icons.phone_in_talk,
             label: tr('fake_call'),
-            onTap: () => _placeholder(context, tr('fake_call')),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const FakeCallSetupScreen()),
+              );
+            },
           ),
           _SlideData(
             icon: Icons.mic,
             label: tr('audio_record'),
-            onTap: () => _placeholder(context, tr('audio_record')),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const AudioRecordScreen()),
+              );
+            },
           ),
           _SlideData(
             icon: Icons.share_location,
             label: tr('share_location'),
-            onTap: () => _placeholder(context, tr('share_location')),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ShareLocationScreen()),
+              );
+            },
           ),
           _SlideData(
             icon: Icons.history,
             label: tr('incident_history'),
-            onTap: () => _placeholder(context, tr('incident_history')),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const IncidentHistoryScreen()),
+              );
+            },
           ),
           _SlideData(
             icon: Icons.person,

@@ -190,20 +190,180 @@ final Map<String, Map<AppLang, String>> _translations = {
     AppLang.hi: 'फ़र्जी कॉल',
     AppLang.mr: 'बनावट कॉल',
   },
+  'choose_caller': {
+    AppLang.en: 'Choose Caller',
+    AppLang.hi: 'कॉलर चुनें',
+    AppLang.mr: 'कॉलर निवडा',
+  },
+  'caller_mom': {
+    AppLang.en: 'Mom',
+    AppLang.hi: 'माँ',
+    AppLang.mr: 'आई',
+  },
+  'caller_office': {
+    AppLang.en: 'Office',
+    AppLang.hi: 'ऑफिस',
+    AppLang.mr: 'ऑफिस',
+  },
+  'caller_unknown': {
+    AppLang.en: 'Unknown',
+    AppLang.hi: 'अज्ञात',
+    AppLang.mr: 'अज्ञात',
+  },
+  'choose_delay': {
+    AppLang.en: 'Delay',
+    AppLang.hi: 'देरी',
+    AppLang.mr: 'विलंब',
+  },
+  'delay_now': {
+    AppLang.en: 'Now',
+    AppLang.hi: 'अभी',
+    AppLang.mr: 'आत्ता',
+  },
+  'delay_10s': {
+    AppLang.en: '10s',
+    AppLang.hi: '10 सेकंड',
+    AppLang.mr: '10 सेकंद',
+  },
+  'delay_30s': {
+    AppLang.en: '30s',
+    AppLang.hi: '30 सेकंड',
+    AppLang.mr: '30 सेकंद',
+  },
+  'start_fake_call': {
+    AppLang.en: 'Start Fake Call',
+    AppLang.hi: 'फ़र्जी कॉल शुरू करें',
+    AppLang.mr: 'बनावट कॉल सुरू करा',
+  },
+  'incoming_call': {
+    AppLang.en: 'Incoming call...',
+    AppLang.hi: 'आने वाली कॉल...',
+    AppLang.mr: 'येणारा कॉल...',
+  },
+  'decline': {
+    AppLang.en: 'Decline',
+    AppLang.hi: 'अस्वीकार करें',
+    AppLang.mr: 'नाकारा',
+  },
+  'accept': {
+    AppLang.en: 'Accept',
+    AppLang.hi: 'स्वीकार करें',
+    AppLang.mr: 'स्वीकारा',
+  },
+  'end_call': {
+    AppLang.en: 'End Call',
+    AppLang.hi: 'कॉल समाप्त करें',
+    AppLang.mr: 'कॉल संपवा',
+  },
+  'calling_scheduled': {
+    AppLang.en: 'Fake call scheduled',
+    AppLang.hi: 'फ़र्जी कॉल निर्धारित',
+    AppLang.mr: 'बनावट कॉल नियोजित',
+  },
   'audio_record': {
     AppLang.en: 'Audio Record',
     AppLang.hi: 'ऑडियो रिकॉर्ड',
     AppLang.mr: 'ऑडिओ रेकॉर्ड',
+  },
+  'start_recording': {
+    AppLang.en: 'Start Recording',
+    AppLang.hi: 'रिकॉर्डिंग शुरू करें',
+    AppLang.mr: 'रेकॉर्डिंग सुरू करा',
+  },
+  'stop_recording': {
+    AppLang.en: 'Stop Recording',
+    AppLang.hi: 'रिकॉर्डिंग रोकें',
+    AppLang.mr: 'रेकॉर्डिंग थांबवा',
+  },
+  'recording_saved': {
+    AppLang.en: 'Recording saved',
+    AppLang.hi: 'रिकॉर्डिंग सहेजी गई',
+    AppLang.mr: 'रेकॉर्डिंग जतन झाली',
+  },
+  'past_recordings': {
+    AppLang.en: 'Past Recordings',
+    AppLang.hi: 'पिछली रिकॉर्डिंग्स',
+    AppLang.mr: 'मागील रेकॉर्डिंग्स',
+  },
+  'no_recordings_yet': {
+    AppLang.en: 'No recordings yet',
+    AppLang.hi: 'अभी तक कोई रिकॉर्डिंग नहीं',
+    AppLang.mr: 'अजून रेकॉर्डिंग नाही',
+  },
+  'mic_permission_needed': {
+    AppLang.en: 'Microphone permission needed',
+    AppLang.hi: 'माइक्रोफ़ोन अनुमति आवश्यक है',
+    AppLang.mr: 'मायक्रोफोन परवानगी आवश्यक आहे',
   },
   'share_location': {
     AppLang.en: 'Share Location',
     AppLang.hi: 'स्थान साझा करें',
     AppLang.mr: 'स्थान शेअर करा',
   },
+  'fetching_location': {
+    AppLang.en: 'Fetching your location...',
+    AppLang.hi: 'आपका स्थान प्राप्त हो रहा है...',
+    AppLang.mr: 'तुमचे स्थान मिळवत आहे...',
+  },
+  'open_in_maps': {
+    AppLang.en: 'Open in Maps',
+    AppLang.hi: 'मैप्स में खोलें',
+    AppLang.mr: 'नकाशामध्ये उघडा',
+  },
+  'send_to_contacts': {
+    AppLang.en: 'Send to Emergency Contacts',
+    AppLang.hi: 'आपातकालीन संपर्कों को भेजें',
+    AppLang.mr: 'आपत्कालीन संपर्कांना पाठवा',
+  },
+  'location_error': {
+    AppLang.en: 'Could not get location. Check location permission/GPS.',
+    AppLang.hi: 'स्थान प्राप्त नहीं हो सका। स्थान अनुमति/जीपीएस जांचें।',
+    AppLang.mr: 'स्थान मिळाले नाही. स्थान परवानगी/जीपीएस तपासा.',
+  },
+  'no_contacts_for_share': {
+    AppLang.en: 'Add an emergency contact first',
+    AppLang.hi: 'पहले एक आपातकालीन संपर्क जोड़ें',
+    AppLang.mr: 'आधी आपत्कालीन संपर्क जोडा',
+  },
+  'your_location': {
+    AppLang.en: 'Your current location',
+    AppLang.hi: 'आपका वर्तमान स्थान',
+    AppLang.mr: 'तुमचे सध्याचे स्थान',
+  },
   'incident_history': {
     AppLang.en: 'Incident History',
     AppLang.hi: 'घटना इतिहास',
     AppLang.mr: 'घटना इतिहास',
+  },
+  'no_incidents_yet': {
+    AppLang.en: 'No incidents yet',
+    AppLang.hi: 'अभी तक कोई घटना नहीं',
+    AppLang.mr: 'अजून कोणतीही घटना नाही',
+  },
+  'sos_event': {
+    AppLang.en: 'SOS Triggered',
+    AppLang.hi: 'एसओएस सक्रिय हुआ',
+    AppLang.mr: 'एसओएस सक्रिय झाले',
+  },
+  'fake_call_event': {
+    AppLang.en: 'Fake Call Used',
+    AppLang.hi: 'फ़र्जी कॉल का उपयोग हुआ',
+    AppLang.mr: 'बनावट कॉल वापरला',
+  },
+  'duration_label': {
+    AppLang.en: 'Duration',
+    AppLang.hi: 'अवधि',
+    AppLang.mr: 'कालावधी',
+  },
+  'caller_label': {
+    AppLang.en: 'Caller',
+    AppLang.hi: 'कॉलर',
+    AppLang.mr: 'कॉलर',
+  },
+  'time_label': {
+    AppLang.en: 'Time',
+    AppLang.hi: 'समय',
+    AppLang.mr: 'वेळ',
   },
   'profile': {
     AppLang.en: 'Profile',
