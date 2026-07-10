@@ -16,6 +16,41 @@ The app is the working core right now; the ID-card trigger is represented by a h
 - **Fake call, audio recording, live location sharing** *(in progress)*
 - **Offline-first** — contacts and settings are stored locally, no internet required to set up
 
+**Trigger setup**
+- In-app SOS button, lock-screen access, shake-to-trigger, voice keyword ("help"), and (planned) hardware card button
+- 3-second cancel window on motion/voice triggers to prevent false alarms
+
+**Home dashboard**
+- Central SOS button
+- Fake Call (escape awkward or unsafe situations)
+- Audio record (evidence)
+- Share live location
+- Status chips: online/offline, active triggers, contacts configured
+
+**Emergency Mode**
+- Full-screen SOS view: red banner, timer, live map, alerted contacts list, audio waveform indicator
+- "I'm Safe" / Cancel and "Escalate" actions
+- Discreet/silent mode option — alerts fire in the background without an alarming on-screen state
+
+**Connectivity-aware alerting**
+- Online → push/WhatsApp/SMS
+- Offline with cellular → direct SMS + local storage
+- No network → records audio, saves last known location, queues alerts to send once connectivity returns
+
+**Auto-escalation**
+- Resends to primary contacts if unacknowledged after 1–2 minutes
+- Escalates to backup contacts (e.g. campus security)
+
+**Fake Call**
+- Configurable caller identity (Mom / Office / Unknown) and delay (Now / 10s / 30s)
+- Realistic incoming-call UI
+
+**Incident history**
+- Logs time, contacts alerted, locations, and audio presence after each SOS
+- Expandable history of past SOS events and fake calls
+
+
+
 ## Hardware Prototype
 
 A simulated ID-card trigger — button + LED — runnable straight from your browser, no hardware needed:
