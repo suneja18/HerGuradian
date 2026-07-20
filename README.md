@@ -1,7 +1,6 @@
 # HerGuardian
 
-**Tech for Women's Safety & Security** — built by **Team Phoenix** for the SafeSphere hackathon track.
-
+**Tech for Women's Safety & Security** 
 ## Why HerGuardian is different
 
 There's no shortage of women's safety apps — most offer the same checklist: an SOS button, location sharing, maybe a fake call. They all fail at the same point: **adoption**. A safety app only works if it's open and ready in the exact moment someone needs it, and in a real threat, pulling out a phone, unlocking it, and finding the right app is often not possible.
@@ -98,11 +97,7 @@ flutter run
 
 🚧 Hackathon prototype — core app flow (auth, contacts, home dashboard, emergency mode) is working. The ID-card hardware trigger exists as a digital simulation for now.
 
-## Team Phoenix
 
-Built with care to help people feel safer, one tap at a time.
-rigger exists as a digital simulation for now.
-
-## Team Phoenix
+## By suneja
 
 Built with care to help people feel safer, one tap at a time.
